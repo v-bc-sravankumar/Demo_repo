@@ -1,0 +1,9 @@
+pytest
+selenium==2.37.2
+fake-factory==0.2
+requests
+PyHawk
+dicttoxml
+python-dateutil
+shutilwhich==1.0.1
+furl

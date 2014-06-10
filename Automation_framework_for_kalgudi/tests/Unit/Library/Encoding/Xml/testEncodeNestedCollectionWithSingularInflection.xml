@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+    <id>999</id>
+    <name>NineNineNine</name>
+    <objects>
+        <object>
+            <id>1</id>
+            <type>a</type>
+        </object>
+        <object>
+            <id>2</id>
+            <type>b</type>
+        </object>
+    </objects>
+</element>

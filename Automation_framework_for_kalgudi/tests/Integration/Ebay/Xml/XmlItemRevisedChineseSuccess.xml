@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header>
+  <ebl:RequesterCredentials soapenv:mustUnderstand="0" xmlns:ns="urn:ebay:apis:eBLBaseComponents" xmlns:ebl="urn:ebay:apis:eBLBaseComponents">
+   <ebl:NotificationSignature xmlns:ebl="urn:ebay:apis:eBLBaseComponents">%%SIGNATURE%%</ebl:NotificationSignature>
+  </ebl:RequesterCredentials>
+ </soapenv:Header>
+ <soapenv:Body>
+  <GetItemResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+   <Timestamp>%%TIMESTAMP%%</Timestamp>
+   <Ack>Success</Ack>
+   <CorrelationID>368350580</CorrelationID>
+   <Version>667</Version>
+   <Build>E667_CORE_BUNDLED_11160767_R1</Build>
+   <NotificationEventName>ItemRevised</NotificationEventName>
+   <RecipientUserID>testuser_interspire_seller</RecipientUserID>
+   <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4CoAJKGqQSdj6x9nY+seQ**</EIASToken>
+   <Item>
+    <AutoPay>false</AutoPay>
+    <BuyerProtection>ItemIneligible</BuyerProtection>
+    <BuyItNowPrice currencyID="AUD">100.0</BuyItNowPrice>
+    <Country>AU</Country>
+    <Currency>USD</Currency>
+    <GiftIcon>0</GiftIcon>
+    <HitCounter>NoHitCounter</HitCounter>
+    <ItemID>111111111111</ItemID>
+    <ListingDetails>
+     <Adult>false</Adult>
+     <BindingAuction>false</BindingAuction>
+     <CheckoutEnabled>true</CheckoutEnabled>
+     <ConvertedBuyItNowPrice currencyID="AUD">0.0</ConvertedBuyItNowPrice>
+     <ConvertedStartPrice currencyID="AUD">1.22</ConvertedStartPrice>
+     <ConvertedReservePrice currencyID="AUD">0.0</ConvertedReservePrice>
+     <HasReservePrice>false</HasReservePrice>
+     <StartTime>2010-05-28T04:10:20.000Z</StartTime>
+     <EndTime>2010-05-28T04:37:38.000Z</EndTime>
+     <ViewItemURL>http://cgi.sandbox.ebay.com.au/ws/eBayISAPI.dll?ViewItem&amp;item=110045929103&amp;category=31388</ViewItemURL>
+     <HasUnansweredQuestions>false</HasUnansweredQuestions>
+     <HasPublicMessages>false</HasPublicMessages>
+     <ExpressListing>false</ExpressListing>
+    </ListingDetails>
+    <ListingDuration>Days_7</ListingDuration>
+    <ListingType>Chinese</ListingType>
+    <Location>city, SA</Location>
+    <PaymentMethods>PayPal</PaymentMethods>
+    <PayPalEmailAddress>ebay.sandbox.seller@whoah.net</PayPalEmailAddress>
+    <PrimaryCategory>
+     <CategoryID>31388</CategoryID>
+     <CategoryName>Cameras &amp; Photo:Digital Cameras</CategoryName>
+    </PrimaryCategory>
+    <PrivateListing>false</PrivateListing>
+    <Quantity>2</Quantity>
+    <ReservePrice currencyID="USD">0.0</ReservePrice>
+    <ReviseStatus>
+     <ItemRevised>true</ItemRevised>
+    </ReviseStatus>
+    <Seller>
+     <AboutMePage>false</AboutMePage>
+     <Email>ebay.sandbox.seller@whoah.net</Email>
+     <FeedbackScore>500</FeedbackScore>
+     <PositiveFeedbackPercent>0.0</PositiveFeedbackPercent>
+     <FeedbackPrivate>false</FeedbackPrivate>
+     <FeedbackRatingStar>Purple</FeedbackRatingStar>
+     <IDVerified>true</IDVerified>
+     <eBayGoodStanding>true</eBayGoodStanding>
+     <NewUser>false</NewUser>
+     <RegistrationDate>1995-01-01T00:00:00.000Z</RegistrationDate>
+     <Site>Australia</Site>
+     <Status>Confirmed</Status>
+     <UserID>testuser_interspire_seller</UserID>
+     <UserIDChanged>true</UserIDChanged>
+     <UserIDLastChanged>2010-05-27T23:30:24.000Z</UserIDLastChanged>
+     <VATStatus>NoVATTax</VATStatus>
+     <SellerInfo>
+      <AllowPaymentEdit>true</AllowPaymentEdit>
+      <CheckoutEnabled>true</CheckoutEnabled>
+      <CIPBankAccountStored>false</CIPBankAccountStored>
+      <GoodStanding>true</GoodStanding>
+      <LiveAuctionAuthorized>false</LiveAuctionAuthorized>
+      <MerchandizingPref>OptIn</MerchandizingPref>
+      <QualifiesForB2BVAT>false</QualifiesForB2BVAT>
+      <SellerLevel>None</SellerLevel>
+      <StoreOwner>false</StoreOwner>
+      <ExpressEligible>false</ExpressEligible>
+      <ExpressWallet>false</ExpressWallet>
+      <SafePaymentExempt>true</SafePaymentExempt>
+     </SellerInfo>
+     <MotorsDealer>false</MotorsDealer>
+    </Seller>
+    <SellingStatus>
+     <BidCount>10</BidCount>
+     <BidIncrement currencyID="USD">0.05</BidIncrement>
+     <ConvertedCurrentPrice currencyID="USD">9.00</ConvertedCurrentPrice>
+     <CurrentPrice currencyID="AUD">10.00</CurrentPrice>
+     <HighBidder>
+      <AboutMePage>false</AboutMePage>
+      <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4CoAJKGqA6dj6x9nY+seQ==</EIASToken>
+      <Email>ebay.sandbox.buyer@whoah.net</Email>
+      <FeedbackScore>1000</FeedbackScore>
+      <PositiveFeedbackPercent>0.0</PositiveFeedbackPercent>
+      <FeedbackPrivate>false</FeedbackPrivate>
+      <FeedbackRatingStar>Red</FeedbackRatingStar>
+      <IDVerified>true</IDVerified>
+      <eBayGoodStanding>true</eBayGoodStanding>
+      <NewUser>false</NewUser>
+      <RegistrationDate>1995-01-01T00:00:00.000Z</RegistrationDate>
+      <Site>Australia</Site>
+      <Status>Confirmed</Status>
+      <UserID>testuser_interspire_buyer</UserID>
+      <UserIDChanged>true</UserIDChanged>
+      <UserIDLastChanged>2010-05-28T04:12:24.000Z</UserIDLastChanged>
+      <VATStatus>NoVATTax</VATStatus>
+      <BuyerInfo>
+       <ShippingAddress>
+        <Country>AU</Country>
+        <PostalCode>5024</PostalCode>
+       </ShippingAddress>
+      </BuyerInfo>
+      <UserAnonymized>false</UserAnonymized>
+     </HighBidder>
+     <LeadCount>0</LeadCount>
+     <MinimumToBid currencyID="USD">1.04</MinimumToBid>
+     <QuantitySold>1</QuantitySold>
+     <ReserveMet>true</ReserveMet>
+     <SecondChanceEligible>false</SecondChanceEligible>
+     <ListingStatus>Completed</ListingStatus>
+    </SellingStatus>
+    <ShippingDetails>
+     <ApplyShippingDiscount>false</ApplyShippingDiscount>
+     <InsuranceOption>NotOffered</InsuranceOption>
+     <SalesTax>
+      <SalesTaxPercent>0.0</SalesTaxPercent>
+      <ShippingIncludedInTax>false</ShippingIncludedInTax>
+     </SalesTax>
+     <ShippingServiceOptions>
+      <ShippingService>Other</ShippingService>
+      <ShippingServiceCost currencyID="USD">1000.0</ShippingServiceCost>
+      <ShippingServicePriority>1</ShippingServicePriority>
+      <ExpeditedService>false</ExpeditedService>
+     </ShippingServiceOptions>
+     <InternationalShippingServiceOption>
+      <ShippingService>OtherInternational</ShippingService>
+      <ShippingServiceCost currencyID="USD">2000.0</ShippingServiceCost>
+      <ShippingServicePriority>1</ShippingServicePriority>
+      <ShipToLocation>Worldwide</ShipToLocation>
+     </InternationalShippingServiceOption>
+     <ShippingType>Flat</ShippingType>
+     <ThirdPartyCheckout>false</ThirdPartyCheckout>
+     <TaxTable/>
+     <InsuranceDetails>
+      <InsuranceOption>NotOffered</InsuranceOption>
+     </InsuranceDetails>
+     <InternationalInsuranceDetails>
+      <InsuranceOption>NotOffered</InsuranceOption>
+     </InternationalInsuranceDetails>
+     <SellerExcludeShipToLocationsPreference>false</SellerExcludeShipToLocationsPreference>
+    </ShippingDetails>
+    <ShipToLocations>Worldwide</ShipToLocations>
+    <Site>US</Site>
+    <StartPrice currencyID="USD">0.99</StartPrice>
+    <TimeLeft>PT0S</TimeLeft>
+    <Title>TEST_ITEMREVISED_REVISED</Title>
+    <HitCount>0</HitCount>
+    <PostalCode>5024</PostalCode>
+    <PictureDetails>
+     <GalleryType>Gallery</GalleryType>
+     <GalleryURL>http://i.ebayimg.com/01/!!d6WQvg!mM~$(KGrHqIH-EYEs8QRORBOBL(hCW2fV!~~_7.JPG</GalleryURL>
+     <PhotoDisplay>None</PhotoDisplay>
+    </PictureDetails>
+    <ProxyItem>false</ProxyItem>
+    <BuyerGuaranteePrice currencyID="AUD">20000.0</BuyerGuaranteePrice>
+    <BuyerRequirementDetails>
+     <MinimumFeedbackScore>-1</MinimumFeedbackScore>
+     <MaximumUnpaidItemStrikesInfo>
+      <Count>2</Count>
+      <Period>Days_30</Period>
+     </MaximumUnpaidItemStrikesInfo>
+     <MaximumBuyerPolicyViolations>
+      <Count>4</Count>
+      <Period>Days_30</Period>
+     </MaximumBuyerPolicyViolations>
+    </BuyerRequirementDetails>
+    <ReturnPolicy>
+     <RefundOption>MoneyBack</RefundOption>
+     <Refund>Money Back</Refund>
+     <ReturnsWithinOption>Days_7</ReturnsWithinOption>
+     <ReturnsWithin>7 Days</ReturnsWithin>
+     <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+     <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+     <Description>The buyer has 7 days to return the item (the buyer pays shipping fees). The item will be refunded.</Description>
+     <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+     <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+    </ReturnPolicy>
+    <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+    <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+    <PaymentAllowedSite>Canada</PaymentAllowedSite>
+    <PaymentAllowedSite>US</PaymentAllowedSite>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New</ConditionDisplayName>
+   </Item>
+  </GetItemResponse>
+ </soapenv:Body>
+</soapenv:Envelope>

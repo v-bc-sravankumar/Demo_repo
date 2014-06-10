@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customer>
+    <resource>
+        <link rel="resource" href="https://store.example.com/api/v2/customers.xml">/customers</link>
+    </resource>
+</customer>

@@ -1,0 +1,9 @@
+Test\RowFixture:
+  custom_url_product{1..30}:
+    __set: set
+    __construct: [custom_urls]
+    _product: @product<current()>
+    target_id: <property($_product, 'productid')>
+    target_type: product
+    url (unique): /product/<word()>.html
+    url_hash: <md5string($url)>

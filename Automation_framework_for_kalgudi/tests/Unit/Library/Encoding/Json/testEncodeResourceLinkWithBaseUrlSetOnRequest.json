@@ -1,0 +1,6 @@
+{
+    "resource":{
+        "url":"https:\/\/api-proxy.example.org\/stores\/xyz123abc\/customers",
+        "resource":"\/customers"
+    }
+}

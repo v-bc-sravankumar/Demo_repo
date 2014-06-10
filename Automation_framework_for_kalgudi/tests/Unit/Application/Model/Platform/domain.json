@@ -1,0 +1,59 @@
+{ "id" : 5025,
+  "name" : "bicyclestore.com.au",
+  "records" : [ { "record" : { "content" : "ns1.syd1bc.bigcommerce.net serverops@interspire.com 2013042400 10800 3600 604800 10800",
+            "id" : 49767,
+            "name" : "bicyclestore.com.au",
+            "prio" : null,
+            "type" : "SOA"
+          } },
+      { "record" : { "content" : "ns1.syd1bc.bigcommerce.net",
+            "id" : 49768,
+            "name" : "bicyclestore.com.au",
+            "prio" : 10,
+            "type" : "NS"
+          } },
+      { "record" : { "content" : "ns2.syd1bc.bigcommerce.net",
+            "id" : 49769,
+            "name" : "bicyclestore.com.au",
+            "prio" : 10,
+            "type" : "NS"
+          } },
+      { "record" : { "content" : "\"v=spf1 +a +mx include:_spf.bigcommerce.com -all\"",
+            "id" : 49770,
+            "name" : "bicyclestore.com.au",
+            "prio" : 10,
+            "type" : "TXT"
+          } },
+      { "record" : { "content" : "10.1.2.48",
+            "id" : 49771,
+            "name" : "ns.bicyclestore.com.au",
+            "prio" : 10,
+            "type" : "A"
+          } },
+      { "record" : { "content" : "10.1.2.48",
+            "id" : 49772,
+            "name" : "bicyclestore.com.au",
+            "prio" : 10,
+            "type" : "A"
+          } },
+      { "record" : { "content" : "bicyclestore.com.au",
+            "id" : 49773,
+            "name" : "www.bicyclestore.com.au",
+            "prio" : 10,
+            "type" : "CNAME"
+          } },
+      { "record" : { "content" : "mail.bicyclestore.com.au",
+            "id" : 49774,
+            "name" : "bicyclestore.com.au",
+            "prio" : 10,
+            "type" : "MX"
+          } },
+      { "record" : { "content" : "10.1.1.35",
+            "id" : 49775,
+            "name" : "mail.bicyclestore.com.au",
+            "prio" : 10,
+            "type" : "A"
+          } }
+    ],
+  "type" : "MASTER"
+}
