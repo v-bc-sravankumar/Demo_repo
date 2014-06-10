@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header>
+  <ebl:RequesterCredentials soapenv:mustUnderstand="0" xmlns:ns="urn:ebay:apis:eBLBaseComponents" xmlns:ebl="urn:ebay:apis:eBLBaseComponents">
+   <ebl:NotificationSignature xmlns:ebl="urn:ebay:apis:eBLBaseComponents">%%Signature%%</ebl:NotificationSignature>
+  </ebl:RequesterCredentials>
+ </soapenv:Header>
+ <soapenv:Body>
+  <GetItemResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+   <Timestamp>%%Timestamp%%</Timestamp>
+   <Ack>Success</Ack>
+   <CorrelationID>576920560</CorrelationID>
+   <Version>837</Version>
+   <Build>E837_CORE_API_16303061_R1</Build>
+   <NotificationEventName>ItemSold</NotificationEventName>
+   <RecipientUserID>testuser_interspire_seller</RecipientUserID>
+   <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4CoAJKGqQSdj6x9nY+seQ==</EIASToken>
+   <Item>
+    <AutoPay>false</AutoPay>
+    <BuyerProtection>ItemIneligible</BuyerProtection>
+    <BuyItNowPrice currencyID="AUD">0.0</BuyItNowPrice>
+    <Country>AU</Country>
+    <Currency>USD</Currency>
+    <Description>&lt;p&gt;&lt;strong&gt;How to write product descriptions that sell&lt;/strong&gt;&lt;br /&gt;&lt;span&gt;One of the best things you can do to make your store successful is invest some time in writing great product descriptions. You want to provide detailed yet concise information that will entice potential customers to buy.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;Keep three things in mind:&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Think like a consumer&lt;/strong&gt;&lt;br /&gt;&lt;span&gt;Think about what you as a consumer would want to know, then include those features in your description. For clothes: materials and fit. For food: ingredients and how it was prepared. Bullets are your friends when listing features &amp;mdash; try to limit each one to 5-8 words.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Find differentiators&lt;/strong&gt;&lt;br /&gt;&lt;span&gt;Pepper your features with details that show how the product stands out against similar offerings. For clothes: is it vintage or hard to find? For art: is the artist well known? For home d&amp;eacute;cor: is it a certain style like mid-century modern? Unique product descriptions not only help you stand out, they improve your SEO.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Keep it simple&lt;/strong&gt;&lt;br /&gt;&lt;span&gt;Provide enough detail to help consumers make an informed decision, but don&amp;rsquo;t overwhelm with a laundry list of features or flowery language. Densely pack your descriptions with useful information and watch products fly off the shelf.&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;&lt;a href=&apos;http://www.bigcommerce.com&apos; target=&apos;_blank&apos;&gt;&lt;img src=&apos;https://store-cektlzfb.bcapp.dev/templates/__master/images/ebayFooter.png&apos; /&gt;&lt;/a&gt;</Description>
+    <GiftIcon>0</GiftIcon>
+    <HitCounter>BasicStyle</HitCounter>
+    <ItemID>%%ItemId%%</ItemID>
+    <ListingDetails>
+     <Adult>false</Adult>
+     <BindingAuction>false</BindingAuction>
+     <CheckoutEnabled>true</CheckoutEnabled>
+     <ConvertedBuyItNowPrice currencyID="AUD">0.0</ConvertedBuyItNowPrice>
+     <ConvertedStartPrice currencyID="AUD">415.39</ConvertedStartPrice>
+     <ConvertedReservePrice currencyID="AUD">0.0</ConvertedReservePrice>
+     <HasReservePrice>false</HasReservePrice>
+     <StartTime>2013-08-23T03:40:42.000Z</StartTime>
+     <EndTime>2013-08-23T03:47:34.000Z</EndTime>
+     <ViewItemURL>http://cgi.sandbox.ebay.com.au/Sample-Mango-half-duff-black-/110121779370</ViewItemURL>
+     <HasUnansweredQuestions>false</HasUnansweredQuestions>
+     <HasPublicMessages>false</HasPublicMessages>
+     <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com.au/Sample-Mango-half-duff-black-/110121779370</ViewItemURLForNaturalSearch>
+    </ListingDetails>
+    <ListingDesigner>
+     <LayoutID>10000</LayoutID>
+     <ThemeID>10</ThemeID>
+    </ListingDesigner>
+    <ListingDuration>Days_7</ListingDuration>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Sydney, NSW</Location>
+    <PaymentMethods>PayPal</PaymentMethods>
+    <PayPalEmailAddress>ciona_1314763405_per@interspire.com</PayPalEmailAddress>
+    <PrimaryCategory>
+     <CategoryID>31388</CategoryID>
+     <CategoryName>Cameras &amp; Photo:Digital Cameras</CategoryName>
+    </PrimaryCategory>
+    <PrivateListing>false</PrivateListing>
+    <Quantity>%%Quantity%%</Quantity>
+    <ReservePrice currencyID="AUD">0.0</ReservePrice>
+    <ReviseStatus>
+     <ItemRevised>false</ItemRevised>
+    </ReviseStatus>
+    <Seller>
+     <AboutMePage>false</AboutMePage>
+     <Email>marc.riddell@interspire.com</Email>
+     <FeedbackScore>1</FeedbackScore>
+     <PositiveFeedbackPercent>100.0</PositiveFeedbackPercent>
+     <FeedbackPrivate>false</FeedbackPrivate>
+     <FeedbackRatingStar>None</FeedbackRatingStar>
+     <IDVerified>true</IDVerified>
+     <eBayGoodStanding>true</eBayGoodStanding>
+     <NewUser>false</NewUser>
+     <RegistrationDate>1995-01-01T00:00:00.000Z</RegistrationDate>
+     <Site>Australia</Site>
+     <Status>Confirmed</Status>
+     <UserID>testuser_interspire_seller</UserID>
+     <UserIDChanged>false</UserIDChanged>
+     <UserIDLastChanged>2010-05-27T23:30:24.000Z</UserIDLastChanged>
+     <VATStatus>NoVATTax</VATStatus>
+     <SellerInfo>
+      <AllowPaymentEdit>true</AllowPaymentEdit>
+      <CheckoutEnabled>true</CheckoutEnabled>
+      <CIPBankAccountStored>false</CIPBankAccountStored>
+      <GoodStanding>true</GoodStanding>
+      <LiveAuctionAuthorized>false</LiveAuctionAuthorized>
+      <MerchandizingPref>OptIn</MerchandizingPref>
+      <QualifiesForB2BVAT>false</QualifiesForB2BVAT>
+      <StoreOwner>false</StoreOwner>
+      <SafePaymentExempt>true</SafePaymentExempt>
+     </SellerInfo>
+     <MotorsDealer>false</MotorsDealer>
+    </Seller>
+    <SellingStatus>
+     <BidCount>0</BidCount>
+     <BidIncrement currencyID="USD">0.0</BidIncrement>
+     <ConvertedCurrentPrice currencyID="AUD">415.39</ConvertedCurrentPrice>
+     <CurrentPrice currencyID="USD">380.0</CurrentPrice>
+     <HighBidder>
+      <AboutMePage>false</AboutMePage>
+      <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4CoAJKGqA6dj6x9nY+seQ==</EIASToken>
+      <Email>ebay.sandbox.buyer@whoah.net</Email>
+      <FeedbackScore>1000</FeedbackScore>
+      <PositiveFeedbackPercent>0.0</PositiveFeedbackPercent>
+      <FeedbackPrivate>false</FeedbackPrivate>
+      <FeedbackRatingStar>Red</FeedbackRatingStar>
+      <IDVerified>false</IDVerified>
+      <eBayGoodStanding>true</eBayGoodStanding>
+      <NewUser>false</NewUser>
+      <RegistrationDate>1995-01-01T00:00:00.000Z</RegistrationDate>
+      <Site>Australia</Site>
+      <Status>Confirmed</Status>
+      <UserID>testuser_interspire_buyer</UserID>
+      <UserIDChanged>false</UserIDChanged>
+      <UserIDLastChanged>2010-05-28T04:12:24.000Z</UserIDLastChanged>
+      <VATStatus>NoVATTax</VATStatus>
+      <BuyerInfo>
+       <ShippingAddress>
+        <Country>US</Country>
+        <PostalCode>90210</PostalCode>
+       </ShippingAddress>
+      </BuyerInfo>
+      <UserAnonymized>false</UserAnonymized>
+     </HighBidder>
+     <LeadCount>0</LeadCount>
+     <MinimumToBid currencyID="USD">380.0</MinimumToBid>
+     <QuantitySold>%%QuantitySold%%</QuantitySold>
+     <ReserveMet>true</ReserveMet>
+     <SecondChanceEligible>false</SecondChanceEligible>
+     <ListingStatus>Completed</ListingStatus>
+     <QuantitySoldByPickupInStore>0</QuantitySoldByPickupInStore>
+    </SellingStatus>
+    <ShippingDetails>
+     <ApplyShippingDiscount>false</ApplyShippingDiscount>
+     <SalesTax>
+      <SalesTaxPercent>0.0</SalesTaxPercent>
+      <ShippingIncludedInTax>false</ShippingIncludedInTax>
+     </SalesTax>
+     <ThirdPartyCheckout>false</ThirdPartyCheckout>
+     <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+     <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+     <SellerExcludeShipToLocationsPreference>false</SellerExcludeShipToLocationsPreference>
+    </ShippingDetails>
+    <ShipToLocations>None</ShipToLocations>
+    <Site>US</Site>
+    <StartPrice currencyID="USD">380.0</StartPrice>
+    <TimeLeft>PT0S</TimeLeft>
+    <Title>[Sample] Mango, half duff black </Title>
+    <HitCount>0</HitCount>
+    <LocationDefaulted>true</LocationDefaulted>
+    <PostalCode>2000</PostalCode>
+    <PictureDetails>
+     <GalleryType>Gallery</GalleryType>
+     <GalleryURL>http://12e4a7ee.ngrok.com/product_images/sample_images/COCO_100395__40671.jpg</GalleryURL>
+     <PhotoDisplay>PicturePack</PhotoDisplay>
+     <PictureURL>http://12e4a7ee.ngrok.com/product_images/sample_images/COCO_100395__40671.jpg</PictureURL>
+     <PictureSource>Vendor</PictureSource>
+     <ExternalPictureURL>http://12e4a7ee.ngrok.com/product_images/sample_images/COCO_100395__40671.jpg</ExternalPictureURL>
+    </PictureDetails>
+    <ProxyItem>false</ProxyItem>
+    <BuyerGuaranteePrice currencyID="AUD">20000.0</BuyerGuaranteePrice>
+    <ReturnPolicy>
+     <ReturnsAcceptedOption>ReturnsNotAccepted</ReturnsAcceptedOption>
+     <ReturnsAccepted>No returns accepted</ReturnsAccepted>
+    </ReturnPolicy>
+    <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+    <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+    <PaymentAllowedSite>Canada</PaymentAllowedSite>
+    <PaymentAllowedSite>US</PaymentAllowedSite>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New</ConditionDisplayName>
+    <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+    <HideFromSearch>false</HideFromSearch>
+   </Item>
+  </GetItemResponse>
+ </soapenv:Body>
+</soapenv:Envelope>

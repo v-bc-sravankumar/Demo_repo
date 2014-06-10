@@ -1,0 +1,87 @@
+Test\RowFixture:
+  product{1..30}:
+    __set: set
+    __construct: [products, productid]
+    prodname (unique): <sentence()>
+    prodtype: <randomNumber(1,2)>
+    prodcode (unique): <word()>
+    prodfile: ""
+    proddesc: <text()>
+    prodsearchkeywords: <keywords()>
+    prodavailability: <sentence()>
+    prodprice: <dbPrice()>
+    prodcostprice: <dbPrice()>
+    prodretailprice: <dbPrice()>
+    prodsaleprice: <dbPrice()>
+    prodcalculatedprice (unique): <dbPrice()>
+    prodsortorder: <randomNumber(0,10)>
+    prodvisible: <randomNumber(0,1)>
+    prodfeatured: <randomNumber(0,1)>
+    prodvendorfeatured: 0
+    prodrelatedproducts: ""
+    prodcurrentinv: <randomNumber(0,100)>
+    prodlowinv: <randomNumber(0,50)>
+    prodoptionsrequired: <randomNumber(0,1)>
+    prodwarranty: <sentence()>
+    prodweight: <randomFloat(0,100)>
+    prodwidth: <randomFloat(0,1000)>
+    prodheight: <randomFloat(0,1000)>
+    proddepth: <randomFloat(0,1000)>
+    prodfixedshippingcost: <randomFloat(2)>
+    prodfreeshipping: <randomNumber(0,1)>
+    prodinvtrack: <randomNumber(0,3)>
+    prodratingtotal: <randomNumber(0,1000)>
+    prodnumratings: <randomNumber(0,100)>
+    average_rating: <randomFloat(2,0,5)>
+    prodnumsold: <randomNumber(0,1000)>
+    proddateadded: <unixTime()>
+    prodbrandid: <randomNumber(0,20)> # replace with dependency
+    prodnumviews: <randomNumber(0,1000)>
+    prodpagetitle: <sentence()>
+    prodmetakeywords: <keywords()>
+    prodmetadesc: <text()>
+    prodlayoutfile: product.html
+    prodvariationid: 0
+    prodallowpurchases: <randomNumber(0,1)>
+    prodhideprice: <randomNumber(0,1)>
+    prodcallforpricinglabel: <sentence()>
+    prodcatids: 1,2,3,5 # replace with dependency
+    prodlastmodified: <unixTime()>
+    prodvendorid: 0
+    prodhastags: <randomNumber(0,1)>
+    prodwrapoptions: <text()>
+    prodconfigfields: ""
+    prodeventdaterequired: 0
+    prodeventdatefieldname: ""
+    prodeventdatelimited: 0
+    prodeventdatelimitedtype: 0
+    prodeventdatelimitedstartdate: 0
+    prodeventdatelimitedenddate: 0
+    prodmyobasset: ""
+    prodmyobincome: ""
+    prodmyobexpense: ""
+    prodpeachtreegl: ""
+    prodcondition: <randomElement(array('New', 'Used', 'Refurbished'))>
+    prodshowcondition: <randomNumber(0,1)>
+    product_enable_optimizer: 0
+    prodpreorder: <randomNumber(0,1)>
+    prodreleasedate: <unixTime()>
+    prodreleasedateremove: 0
+    prodpreordermessage: <sentence()>
+    prodminqty: <randomNumber(0,10)>
+    prodmaxqty: <randomNumber(0,100)>
+    tax_class_id: 0 # could be improved
+    opengraph_type: ""
+    opengraph_title: ""
+    opengraph_use_product_name: ""
+    opengraph_description: ""
+    opengraph_use_meta_description: ""
+    opengraph_use_image: ""
+    upc (unique): <numerify("###########")>
+    disable_google_checkout: 0
+    last_import: <unixTime()>
+    product_type_id: <randomNumber(0,10)> # replace with dependency
+    product_type_display: 0
+    bin_picking_number: ""
+    google_ps_enabled: <randomNumber(0,1)>
+    special_handling_required: <randomNumber(0,1)>

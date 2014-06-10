@@ -1,0 +1,14 @@
+{
+    "resource":{
+        "id": 5,
+        "name": "John Smith",
+        "numbers": [1,2,3],
+        "url":"https:\/\/store.example.com\/api\/v2\/customers.json",
+        "resource":"\/customers",
+        "address": {
+          "street": "23 Long St",
+          "url": "https:\/\/store.example.com\/api\/v2\/customers\/5\/addresses\/2.json",
+          "resource": "\/customers\/5\/addresses\/2"
+        }
+    }
+}

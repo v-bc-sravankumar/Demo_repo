@@ -1,0 +1,16 @@
+{
+    "first_name":"Bob",
+    "last_name":"Smith",
+    "addresses":[
+        {
+            "street_1":"1 Long St",
+            "city":"Sydney",
+            "country":"Australia"
+        },
+        {
+            "street_1":"5 Big Rd",
+            "city":"Melbourne",
+            "country":"Australia"
+        }
+    ]
+}

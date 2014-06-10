@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<request>
+    <id>72142</id>
+    <domain_id>0</domain_id>
+    <application_settings>
+    	<store_hash>82fac7d</store_hash>
+        <deployed>1</deployed>
+        <product_edition>ultimate</product_edition>
+        <product_limit>0</product_limit>
+        <user_limit>3</user_limit>
+        <plan_name>Test Account</plan_name>
+        <last_bandwidth_reset>2011-03-17</last_bandwidth_reset>
+        <next_bandwidth_reset>2011-04-17</next_bandwidth_reset>
+        <api_limit_requests>0</api_limit_requests>
+        <api_limit_time>0</api_limit_time>
+        <available_features>0</available_features>
+        <feature_flags>
+            <CustomerGroups>0</CustomerGroups>
+            <CustomerGroupsDiscounts>0</CustomerGroupsDiscounts>
+        </feature_flags>
+        <registration_date>2010-09-17</registration_date>
+        <transfer_limit>1024</transfer_limit>
+        <storage_limit>100</storage_limit>
+        <ssl_installed>1</ssl_installed>
+        <ssl_valid_to>1352353854</ssl_valid_to>
+        <ssl_is_dedicated>0</ssl_is_dedicated>
+        <country_iso2>US</country_iso2>
+        <referral_id>90i10f0</referral_id>
+        <partner>
+            <code>HPY</code>
+            <payment_providers>
+                <payment_provider default='1'>checkout_hps</payment_provider>
+            </payment_providers>
+            <cp_live_chat>0</cp_live_chat>
+            <cp_online_support>0</cp_online_support>
+            <support_contacts>
+                <phone>1-866-802-9753</phone>
+                <fax>1-866-976-7212</fax>
+                <availability>
+                    <Mon-Fri>7am - 7pm (EST)</Mon-Fri>
+                    <Sat>Closed</Sat>
+                    <Sun>Closed</Sun>
+                </availability>
+                <email>clientservice@e-hps.com</email>
+            </support_contacts>
+        </partner>
+    </application_settings>
+</request>

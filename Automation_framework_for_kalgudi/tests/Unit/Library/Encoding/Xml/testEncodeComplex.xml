@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customers>
+    <first_name>Bob</first_name>
+    <last_name>Smith</last_name>
+    <addresses>
+        <address>
+            <street_1>1 Long St</street_1>
+            <city>Sydney</city>
+            <country>Australia</country>
+        </address>
+        <address>
+            <street_1>5 Big Rd</street_1>
+            <city>Melbourne</city>
+            <country>Australia</country>
+        </address>
+    </addresses>
+</customers>

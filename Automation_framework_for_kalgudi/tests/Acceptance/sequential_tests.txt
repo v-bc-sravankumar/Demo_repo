@@ -1,0 +1,2 @@
+ui/test_payments.py
+ui/test_setup_shipping.py

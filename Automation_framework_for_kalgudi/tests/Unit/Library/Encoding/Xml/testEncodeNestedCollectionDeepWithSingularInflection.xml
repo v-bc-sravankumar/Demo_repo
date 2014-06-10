@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+    <id>999</id>
+    <name>NineNineNine</name>
+    <addresses>
+        <address>
+            <id>1</id>
+            <type>a</type>
+        </address>
+        <address>
+            <id>2</id>
+            <type>b</type>
+        </address>
+    </addresses>
+    <objects>
+        <object>
+            <id>1</id>
+            <type>a</type>
+            <states>
+                <state>
+                    <id>0</id>
+                </state>
+                <state>
+                    <id>1</id>
+                </state>
+                <state>
+                    <id>2</id>
+                </state>
+            </states>
+        </object>
+        <object>
+            <id>2</id>
+            <type>b</type>
+            <states>
+                <state>
+                    <id>3</id>
+                </state>
+                <state>
+                    <id>4</id>
+                </state>
+                <state>
+                    <id>5</id>
+                </state>
+            </states>
+        </object>
+    </objects>
+</element>

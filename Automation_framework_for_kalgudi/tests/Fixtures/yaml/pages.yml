@@ -1,0 +1,25 @@
+Content\Page:
+  page{1..10}:
+    title (unique): <sentence()>
+    metaTitle: <sentence()>
+    link: <url()>
+    feed: <url()>feed.xml
+    email: <email()>
+    content: <text()>
+    status: <randomNumber(0,1)>
+    parentId: <randomNumber()>
+    sort: <randomNumber()>
+    keywords: <keywords()>
+    description: <text()>
+    type: <randomNumber(0,4)>
+    contactFields: ""
+    metaKeywords: <keywords()>
+    metaDescription: <text()>
+    homepage: <randomNumber(0,1)>
+    layoutFile: <word()>.html
+    parentList: <numberList(4)>
+    customersOnly: <randomNumber(0,1)>
+    optimizerEnabled: 0
+    searchKeywords: <keywords()>
+    hasMobileVersion: <randomNumber(0,1)>
+    mobileContent: <text()>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+		 backupStaticAttributes="false"
+		 colors="false"
+		 bootstrap="Config.php"
+		 convertErrorsToExceptions="true"
+		 convertNoticesToExceptions="true"
+		 convertWarningsToExceptions="true"
+		 processIsolation="false"
+		 stopOnFailure="false"
+		 syntaxCheck="false"
+		 testSuiteLoaderClass="PHPUnit_Runner_StandardTestSuiteLoader">
+	<php>
+	        <env name="PHP_APP_ENVIRONMENT" value="test"/>
+		<const name="SHIPPING_SERVICE_HOST" value="http://shippingmaster-mark-rickerby.dev1.syd1bc.bigcommerce.net" />
+		<const name="TEST_CLEAN_INSTALL" value="true"/>
+	</php>
+	<testsuites>
+		<testsuite>
+			<directory suffix=".php">Integration</directory>
+			<directory suffix=".php">Unit</directory>
+		</testsuite>
+	</testsuites>
+	<groups>
+		<exclude>
+			<group>incomplete</group>
+			<group>upgrade</group>
+		</exclude>
+	</groups>
+</phpunit>

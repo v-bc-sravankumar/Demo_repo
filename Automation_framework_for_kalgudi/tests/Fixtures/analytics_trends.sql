@@ -1,0 +1,8 @@
+INSERT INTO `unique_visitors` VALUES (1,1389571200,3);
+INSERT INTO `unique_visitors` VALUES (2,1389528000,2);
+INSERT INTO `unique_visitors` VALUES (3,1389182400,4);
+INSERT INTO `unique_visitors` VALUES (4,1389096000,1);
+INSERT INTO `unique_visitors` VALUES (5,1388923200,1);
+INSERT INTO `unique_visitors` VALUES (6,1386676800,7);
+INSERT INTO `unique_visitors` VALUES (7,1387713600,4);
+INSERT INTO `unique_visitors` VALUES (8,1357473600,5);

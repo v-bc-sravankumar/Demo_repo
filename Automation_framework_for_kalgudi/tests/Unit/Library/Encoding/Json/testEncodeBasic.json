@@ -1,0 +1,19 @@
+{
+    "string":"foo",
+    "numeric":1,
+    "boolean":true,
+    "null":null,
+    "array":[
+        1,
+        2,
+        3
+    ],
+    "object":{
+        "field1":"foo",
+        "field2":"bar",
+        "sub-object":{
+            "sub-field1":"hello",
+            "sub-field2":"world"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+Store_Brand:
+  brand{1..20}:
+    name (unique): <word()>
+    pageTitle: <sentence()>
+    metaKeywords: <keywords()>
+    metaDescription: <text()>
+    imageFileName: <word()>.jpg
+    searchKeywords: <sentence(4)>

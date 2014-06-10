@@ -1,0 +1,42 @@
+{
+    "id":"3001",
+    "name":"Subset of colors",
+    "options":[
+        {
+            "id":4000,
+            "option_id":1000,
+            "option_set_id":3001,
+            "display_name":"Color",
+            "sort_order":0,
+            "is_required":true,
+            "name":"Color",
+            "type":"CS",
+            "values":[
+                {
+                    "id":2000,
+                    "option_id":1000,
+                    "label":"Blue",
+                    "sort_order":0,
+                    "value":"#123c91",
+                    "is_enabled":true
+                },
+                {
+                    "id":2001,
+                    "option_id":1000,
+                    "label":"Green",
+                    "sort_order":1,
+                    "value":"#0f961e",
+                    "is_enabled":true
+                },
+                {
+                    "id":2002,
+                    "option_id":1000,
+                    "label":"Yellow",
+                    "sort_order":2,
+                    "value":"#f0f005",
+                    "is_enabled":false
+                }
+            ]
+        }
+    ]
+}

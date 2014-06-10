@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object>
+    <string>foo</string>
+    <numeric>1</numeric>
+    <boolean>true</boolean>
+    <null>NULL</null>
+    <array>
+        <value>1</value>
+        <value>2</value>
+        <value>3</value>
+    </array>
+    <object>
+        <field1>foo</field1>
+        <field2>bar</field2>
+        <sub-object>
+            <sub-field1>hello</sub-field1>
+            <sub-field2>world</sub-field2>
+        </sub-object>
+    </object>
+</object>

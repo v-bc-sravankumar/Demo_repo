@@ -1,0 +1,6 @@
+{
+    "resource":{
+        "url":"https:\/\/store.example.com\/api\/v2\/customers.json",
+        "resource":"\/customers"
+    }
+}

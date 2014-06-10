@@ -1,0 +1,20 @@
+# generate a tax price for each product in zones 1 and 2
+Test\RowFixture:
+  pricing{1..30}:
+    __set: set
+    __construct: [product_tax_pricing, price_reference]
+    _product: @product<current()>
+    price_reference: <property($_product, 'prodcalculatedprice')>
+    calculated_price: <dbPrice()>
+    tax_zone_id: 1
+    tax_class_id: 0
+
+  pricing{31..60}:
+    __set: set
+    __construct: [product_tax_pricing, price_reference]
+    _current: <current()>
+    _product: @product<subtract($_current, 30)>
+    price_reference: <property($_product, 'prodcalculatedprice')>
+    calculated_price: <dbPrice()>
+    tax_zone_id: 2
+    tax_class_id: 0

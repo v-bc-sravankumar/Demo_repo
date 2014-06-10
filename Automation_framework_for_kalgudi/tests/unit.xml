@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+  backupStaticAttributes="false"
+  colors="false"
+  bootstrap="bootstrap.unit.php"
+  convertErrorsToExceptions="true"
+  convertNoticesToExceptions="true"
+  convertWarningsToExceptions="true"
+  processIsolation="false"
+  stopOnFailure="false"
+  syntaxCheck="false"
+  testSuiteLoaderClass="PHPUnit_Runner_StandardTestSuiteLoader"
+  >
+  <php>
+    <env name="PHP_APP_ENVIRONMENT" value="test"/>
+    <const name="SECURENET_CERTIFICATION_ID" value="7001174" />
+    <const name="SECURENET_CERTIFICATION_KEY" value="ybMkAvWwHWxA" />
+    <const name="TEST_RABBITMQ_URI" value="tiger.cloudamqp.com/rgxnhrkm:5672" />
+    <const name="TEST_RABBITMQ_URI_SSL" value="tiger.cloudamqp.com/rgxnhrkm:5671" />
+    <const name="TEST_RABBITMQ_USER" value="rgxnhrkm" />
+    <const name="TEST_RABBITMQ_PASSWORD" value="476lS7w43U6ifN4RvyRvwrN0jYrPoLoW" />
+    <const name="TEST_RABBITMQ_SSL_CAPATH" value="/etc/ssl/certs" />
+    <const name="HPS_SITE_ID" value="20898" />
+    <const name="HPS_LICENSE_ID" value="20897" />
+    <const name="HPS_MERCHANT_ID" value="777700004530" />
+    <const name="HPS_DEVICE_ID" value="01520041" />
+    <const name="HPS_USER_ID" value="777700004530" />
+    <const name="HPS_PASSWORD" value="$Test1234" />
+    <const name="STRIPE_TEST_API_TOKEN" value="sk_test_rP1hu9UVBgrHhPbhd1vhymbk" />
+    <ini name="display_errors" value="1" />
+    <ini name="error_reporting" value="30719" />
+  </php>
+  <testsuites>
+    <testsuite>
+      <directory suffix=".php">Unit</directory>
+    </testsuite>
+  </testsuites>
+  <groups>
+    <exclude>
+      <group>remote</group>
+      <group>disabled</group>
+      <group>flaky</group>
+      <group>incomplete</group>
+      <group>nightly</group>
+    </exclude>
+  </groups>
+</phpunit>

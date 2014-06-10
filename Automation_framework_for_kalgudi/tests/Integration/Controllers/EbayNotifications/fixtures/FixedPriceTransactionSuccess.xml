@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header>
+  <ebl:RequesterCredentials soapenv:mustUnderstand="0" xmlns:ns="urn:ebay:apis:eBLBaseComponents" xmlns:ebl="urn:ebay:apis:eBLBaseComponents">
+   <ebl:NotificationSignature xmlns:ebl="urn:ebay:apis:eBLBaseComponents">%%Signature%%</ebl:NotificationSignature>
+  </ebl:RequesterCredentials>
+ </soapenv:Header>
+ <soapenv:Body>
+  <GetItemTransactionsResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+   <Timestamp>%%Timestamp%%</Timestamp>
+   <Ack>Success</Ack>
+   <CorrelationID>576920470</CorrelationID>
+   <Version>837</Version>
+   <Build>E837_CORE_API_16303061_R1</Build>
+   <NotificationEventName>FixedPriceTransaction</NotificationEventName>
+   <RecipientUserID>testuser_interspire_seller</RecipientUserID>
+   <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4CoAJKGqQSdj6x9nY+seQ==</EIASToken>
+   <PaginationResult>
+    <TotalNumberOfPages>1</TotalNumberOfPages>
+    <TotalNumberOfEntries>1</TotalNumberOfEntries>
+   </PaginationResult>
+   <HasMoreTransactions>false</HasMoreTransactions>
+   <TransactionsPerPage>100</TransactionsPerPage>
+   <PageNumber>1</PageNumber>
+   <ReturnedTransactionCountActual>1</ReturnedTransactionCountActual>
+   <Item>
+    <AutoPay>false</AutoPay>
+    <BuyItNowPrice currencyID="AUD">0.0</BuyItNowPrice>
+    <Currency>USD</Currency>
+    <ItemID>%%ItemId%%</ItemID>
+    <ListingDetails>
+     <StartTime>2013-08-23T03:40:42.000Z</StartTime>
+     <EndTime>2013-08-23T03:47:34.000Z</EndTime>
+     <ViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;Item=110121779370</ViewItemURL>
+     <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110121779370&amp;category=0</ViewItemURLForNaturalSearch>
+    </ListingDetails>
+    <ListingType>FixedPriceItem</ListingType>
+    <PaymentMethods>PayPal</PaymentMethods>
+    <PrimaryCategory>
+     <CategoryID>31388</CategoryID>
+    </PrimaryCategory>
+    <PrivateListing>false</PrivateListing>
+    <Quantity>%%Quantity%%</Quantity>
+    <SecondaryCategory>
+     <CategoryID>0</CategoryID>
+    </SecondaryCategory>
+    <Seller>
+     <AboutMePage>false</AboutMePage>
+     <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4CoAJKGqQSdj6x9nY+seQ==</EIASToken>
+     <Email>marc.riddell@interspire.com</Email>
+     <FeedbackScore>1</FeedbackScore>
+     <PositiveFeedbackPercent>100.0</PositiveFeedbackPercent>
+     <FeedbackPrivate>false</FeedbackPrivate>
+     <FeedbackRatingStar>None</FeedbackRatingStar>
+     <IDVerified>true</IDVerified>
+     <eBayGoodStanding>true</eBayGoodStanding>
+     <NewUser>false</NewUser>
+     <RegistrationDate>1995-01-01T00:00:00.000Z</RegistrationDate>
+     <Site>Australia</Site>
+     <Status>Confirmed</Status>
+     <UserID>testuser_interspire_seller</UserID>
+     <UserIDChanged>false</UserIDChanged>
+     <UserIDLastChanged>2010-05-27T23:30:24.000Z</UserIDLastChanged>
+     <VATStatus>NoVATTax</VATStatus>
+     <SellerInfo>
+      <AllowPaymentEdit>true</AllowPaymentEdit>
+      <CheckoutEnabled>true</CheckoutEnabled>
+      <CIPBankAccountStored>false</CIPBankAccountStored>
+      <GoodStanding>true</GoodStanding>
+      <LiveAuctionAuthorized>false</LiveAuctionAuthorized>
+      <MerchandizingPref>OptIn</MerchandizingPref>
+      <QualifiesForB2BVAT>false</QualifiesForB2BVAT>
+      <StoreOwner>false</StoreOwner>
+      <SafePaymentExempt>true</SafePaymentExempt>
+     </SellerInfo>
+    </Seller>
+    <SellingStatus>
+     <ConvertedCurrentPrice currencyID="AUD">415.39</ConvertedCurrentPrice>
+     <CurrentPrice currencyID="USD">380.0</CurrentPrice>
+     <QuantitySold>%%QuantitySold%%</QuantitySold>
+     <ListingStatus>Completed</ListingStatus>
+    </SellingStatus>
+    <Site>US</Site>
+    <StartPrice currencyID="USD">380.0</StartPrice>
+    <Title>[Sample] Mango, half duff black </Title>
+    <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New</ConditionDisplayName>
+   </Item>
+   <TransactionArray>
+    <Transaction>
+     <AmountPaid currencyID="USD">0.0</AmountPaid>
+     <AdjustmentAmount currencyID="USD">0.0</AdjustmentAmount>
+     <ConvertedAdjustmentAmount currencyID="AUD">0.0</ConvertedAdjustmentAmount>
+     <Buyer>
+      <AboutMePage>false</AboutMePage>
+      <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4CoAJKGqA6dj6x9nY+seQ==</EIASToken>
+      <Email>ebay.sandbox.buyer@whoah.net</Email>
+      <FeedbackScore>1000</FeedbackScore>
+      <PositiveFeedbackPercent>0.0</PositiveFeedbackPercent>
+      <FeedbackPrivate>false</FeedbackPrivate>
+      <FeedbackRatingStar>Red</FeedbackRatingStar>
+      <IDVerified>false</IDVerified>
+      <eBayGoodStanding>true</eBayGoodStanding>
+      <NewUser>false</NewUser>
+      <RegistrationDate>1995-01-01T00:00:00.000Z</RegistrationDate>
+      <Site>Australia</Site>
+      <Status>Confirmed</Status>
+      <UserID>testuser_interspire_buyer</UserID>
+      <UserIDChanged>false</UserIDChanged>
+      <UserIDLastChanged>2010-05-28T04:12:24.000Z</UserIDLastChanged>
+      <VATStatus>NoVATTax</VATStatus>
+      <BuyerInfo>
+       <ShippingAddress>
+        <Name>Bob</Name>
+        <Street1>12 some st</Street1>
+        <CityName>Beverly Hills</CityName>
+        <StateOrProvince>CA</StateOrProvince>
+        <Country>US</Country>
+        <CountryName>United States</CountryName>
+        <PostalCode>90210</PostalCode>
+        <AddressID>6889162</AddressID>
+        <AddressOwner>eBay</AddressOwner>
+        <AddressUsage>DefaultShipping</AddressUsage>
+       </ShippingAddress>
+      </BuyerInfo>
+      <UserAnonymized>false</UserAnonymized>
+     </Buyer>
+     <ShippingDetails>
+      <ChangePaymentInstructions>false</ChangePaymentInstructions>
+      <PaymentEdited>false</PaymentEdited>
+      <SalesTax>
+       <SalesTaxPercent>0.0</SalesTaxPercent>
+       <ShippingIncludedInTax>false</ShippingIncludedInTax>
+       <SalesTaxAmount currencyID="USD">0.0</SalesTaxAmount>
+      </SalesTax>
+      <ShippingServiceOptions>
+       <ShippingService>Pickup</ShippingService>
+       <ShippingServiceCost currencyID="USD">0.0</ShippingServiceCost>
+       <ShippingServicePriority>1</ShippingServicePriority>
+       <ExpeditedService>false</ExpeditedService>
+      </ShippingServiceOptions>
+      <ShippingType>Flat</ShippingType>
+      <SellingManagerSalesRecordNumber>302</SellingManagerSalesRecordNumber>
+      <ThirdPartyCheckout>false</ThirdPartyCheckout>
+      <TaxTable/>
+     </ShippingDetails>
+     <ConvertedAmountPaid currencyID="AUD">0.0</ConvertedAmountPaid>
+     <ConvertedTransactionPrice currencyID="AUD">415.39</ConvertedTransactionPrice>
+     <CreatedDate>2013-08-23T03:47:34.000Z</CreatedDate>
+     <DepositType>None</DepositType>
+     <QuantityPurchased>1</QuantityPurchased>
+     <Status>
+      <eBayPaymentStatus>NoPaymentFailure</eBayPaymentStatus>
+      <CheckoutStatus>CheckoutIncomplete</CheckoutStatus>
+      <LastTimeModified>2013-08-23T03:47:34.000Z</LastTimeModified>
+      <PaymentMethodUsed>None</PaymentMethodUsed>
+      <CompleteStatus>Incomplete</CompleteStatus>
+      <BuyerSelectedShipping>false</BuyerSelectedShipping>
+      <PaymentHoldStatus>None</PaymentHoldStatus>
+      <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+     </Status>
+     <TransactionID>27101384001</TransactionID>
+     <TransactionPrice currencyID="USD">380.0</TransactionPrice>
+     <BestOfferSale>false</BestOfferSale>
+     <ShippingServiceSelected>
+      <ShippingService>Pickup</ShippingService>
+      <ShippingServiceCost currencyID="USD">0.0</ShippingServiceCost>
+     </ShippingServiceSelected>
+     <ContainingOrder>
+      <OrderID>110121779370-27101384001</OrderID>
+     </ContainingOrder>
+     <FinalValueFee currencyID="AUD">41.54</FinalValueFee>
+     <TransactionSiteID>Australia</TransactionSiteID>
+     <Platform>eBay</Platform>
+     <PayPalEmailAddress>ciona_1314763405_per@interspire.com</PayPalEmailAddress>
+     <BuyerGuaranteePrice currencyID="AUD">20000.0</BuyerGuaranteePrice>
+     <OrderLineItemID>110121779370-27101384001</OrderLineItemID>
+     <IsMultiLegShipping>false</IsMultiLegShipping>
+     <IntangibleItem>false</IntangibleItem>
+    </Transaction>
+   </TransactionArray>
+  </GetItemTransactionsResponse>
+ </soapenv:Body>
+</soapenv:Envelope>
