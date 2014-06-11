@@ -132,6 +132,11 @@ class CommonMethods():
         browser.find_element_by_id('password1').send_keys(password)
         browser.find_element_by_id('login').click()
 
+    def logout(self,browser):
+        browser.find_element_by_id('loginUserName').click()
+        #browser.find_element_by_xpath('//a[@class="dropdown-toggle"]').click()
+        browser.find_element_by_link_text('Logout').click()
+
     def login_without_ana(self, browser, url, username, password):
         browser.find_element_by_id('username').send_keys(username)
         browser.find_element_by_id('password').send_keys(password)
